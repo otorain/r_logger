@@ -1,8 +1,11 @@
 # RLogger
-Short description and motivation.
+simple way to create logger with specific name in Ruby On Rails, and it will generate log file under the `log` folder
 
 ## Usage
-How to use my plugin.
+
+```ruby
+RLogger.make("first_log") # create log file log/first.log, and return a object that instance of ActiveSupport::Logger
+```
 
 ## Installation
 Add this line to your application's Gemfile:
